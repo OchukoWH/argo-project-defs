@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: external-nginx
   rules:
-    - host: vprofile-test.ochukowhoro.xyz
+    - host: vprofile.ochukowhoro.xyz
       http:
         paths:
           - path: /
@@ -22,5 +22,5 @@ spec:
                   number: 8080
   tls:
     - hosts:
-        - vprofile-test.ochukowhoro.xyz
-      secretName: vprofile-test-ochukowhoro-xyz
+        - vprofile.ochukowhoro.xyz
+      secretName: vprofile-ochukowhoro-xyz
