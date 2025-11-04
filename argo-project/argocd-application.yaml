@@ -10,7 +10,7 @@ spec:
   project: vprofile-project
   source:
     path: vprofile
-    repoURL: https://github.com/CK-codemax/argo-project-defs.git
+    repoURL: https://github.com/OchukoWH/argo-project-defs.git
     targetRevision: vprofile-test
   syncPolicy:
     automated:
